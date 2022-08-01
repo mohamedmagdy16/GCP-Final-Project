@@ -40,7 +40,7 @@ custom SA and attach it to your nodes.
 terraform init
 
 # check plan
-terraform plan infrastructure.tfvars
+terraform plan --var-file infrastructure.tfvars
 
 # applying the plan 
-terraform apply infrastructure.tfvars
+terraform apply --var-file infrastructure.tfvars
